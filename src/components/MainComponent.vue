@@ -116,11 +116,11 @@
     display: flex;
     align-items: stretch;
     justify-content: center;
-    border: 1px solid black;
     .panel {
-      border: 1px solid blue;
+      border: 1px solid #aeaeae;
       width: 50%;
       padding: 10px;
+      margin: 5px;
     }
   }
 </style>
