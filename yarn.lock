@@ -61,9 +61,9 @@
   integrity sha512-kFsOS0IbsuhO5ojF8Hc8z/8vEIOkylVBrjiZUbLTE3XFe0Qi+uu6HjzQixkFaqr0ZPAMZcBVxEwmsnsLPZ2Xsw==
 
 "@babel/parser@^7.12.0", "@babel/parser@^7.12.1", "@babel/parser@^7.12.13", "@babel/parser@^7.12.3":
-  version "7.12.13"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.12.13.tgz#3ee7be4131fe657ba9143d5c5b3a9f253fdb75e9"
-  integrity sha512-z7n7ybOUzaRc3wwqLpAX8UFIXsrVXUJhtNGBwAnLz6d1KUapqyq7ad2La8gZ6CXhHmGAIL32cop8Tst4/PNWLw==
+  version "7.12.14"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.12.14.tgz#4adb7c5eef1d437ef965ad1569cd826db8c11dc9"
+  integrity sha512-xcfxDq3OrBnDsA/Z8eK5/2iPcLD8qbOaSSfOw4RA6jp4i7e6dEQ7+wTwxItEwzcXPQcsry5nZk96gmVPKletjQ==
 
 "@babel/template@^7.12.13", "@babel/template@^7.12.7":
   version "7.12.13"
@@ -258,7 +258,7 @@
   dependencies:
     "@types/braces" "*"
 
-"@vitejs/plugin-vue@^1.1.2":
+"@vitejs/plugin-vue@^1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-1.1.4.tgz#1dd388519b75439b7733601b55238ca691864796"
   integrity sha512-cUDILd++9jdhdjpuhgJofQqOabOKe+kTWTE2HQY2PBHEUO2fgwTurLE0cJg9UcIo1x4lHfsp+59S9TBCHgTZkw==
@@ -668,9 +668,9 @@ emojis-list@^3.0.0:
   integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
 
 esbuild@^0.8.34:
-  version "0.8.39"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.39.tgz#18b84a3d56173c55ee8f45bc6c7b5374b0a98ecb"
-  integrity sha512-/do5H74a5ChyeKRWfkDh3EpICXpsz6dWTtFFbotb7BlIHvWqnRrZYDb8IBubOHdEtKzuiksilRO19aBtp3/HHQ==
+  version "0.8.41"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.41.tgz#d177f35354cf2b5a3eeddd8c927066fff82771b3"
+  integrity sha512-xejVYquAHrYaHkn/7Itm0aTAALvY1ZJTWMQ14Ww8wEeeg6B/8BN3rjDJ4LMbLoEdVEAFS2b5OZ3jPRYm8Ikm0g==
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -1348,10 +1348,10 @@ uuid@^8.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
-vite@^2.0.0-beta.50:
-  version "2.0.0-beta.62"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.0-beta.62.tgz#3227fc63ecd3d6fc67b1b95add68cdcde09844b2"
-  integrity sha512-75RF5H/8Ta2UvTSjiK5EslyTkUTgRMgkeVRDHqlfDNAJUI8+gvXzhEdTpq2bsASjvnlSytBk+odtCxikEoibbg==
+vite@^2.0.0-beta.64:
+  version "2.0.0-beta.64"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.0.0-beta.64.tgz#245cabc72335911d4cb704545f713d47e880d84f"
+  integrity sha512-/dR5rOXohhdXfkAIBAjmwX7JmoMWhQc7+VI6/EjyqXQCQzREmfBztLgTk/rPkmsNY87Cd71u9b+nlbcYK4TDCA==
   dependencies:
     esbuild "^0.8.34"
     postcss "^8.2.1"

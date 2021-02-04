@@ -2,16 +2,13 @@
   <main-component />
 </template>
 
-<script lang="ts">
+<script>
   import { defineComponent } from 'vue';
   import MainComponent from './components/MainComponent.vue';
-
   export default defineComponent( {
     name: 'App',
-    components: {
-      MainComponent
-    }
-  } )
+    components: { MainComponent }
+  } );
 </script>
 
 <style>
