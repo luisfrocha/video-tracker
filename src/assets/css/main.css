@@ -1,0 +1,192 @@
+html.decks.show.fonts-are-ready .reveal, html.decks.show.fonts-are-ready .deck-social {
+    opacity: 1;
+}
+html.decks.show .reveal, html.decks.show .deck-social {
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+html.decks.show .reveal {
+    line-height: 1;
+}
+.theme-color-black-blue .themed, .theme-color-black-blue .reveal {
+    color: #fff;
+}
+.reveal.embedded {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+.theme-font-opensans .themed, .theme-font-opensans .reveal {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 30px;
+}
+.reveal {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -ms-touch-action: pinch-zoom;
+    touch-action: pinch-zoom;
+}
+* {
+    box-sizing: border-box;
+}
+#result-box.zoom-1 iframe {
+    width: 100% !important;
+    height: 100% !important;
+}
+.reveal .slides>section.present, .reveal .slides>section>section.present {
+    display: block;
+    z-index: 11;
+    opacity: 1;
+}
+.reveal .sl-block {
+    display: block;
+    position: absolute;
+    z-index: auto;
+    min-width: 1px;
+    min-height: 1px;
+    pointer-events: none;
+}
+.reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal blockquote, .reveal pre, .reveal a, .reveal abbr, .reveal acronym, .reveal address, .reveal big, .reveal cite, .reveal code, .reveal del, .reveal dfn, .reveal em, .reveal img, .reveal ins, .reveal kbd, .reveal q, .reveal s, .reveal samp, .reveal small, .reveal strike, .reveal strong, .reveal sub, .reveal sup, .reveal tt, .reveal var, .reveal b, .reveal u, .reveal center, .reveal dl, .reveal dt, .reveal dd, .reveal ol, .reveal ul, .reveal li, .reveal fieldset, .reveal form, .reveal label, .reveal legend, .reveal table, .reveal caption, .reveal tbody, .reveal tfoot, .reveal thead, .reveal tr, .reveal th, .reveal td, .reveal article, .reveal aside, .reveal canvas, .reveal details, .reveal embed, .reveal figure, .reveal figcaption, .reveal footer, .reveal header, .reveal hgroup, .reveal menu, .reveal nav, .reveal output, .reveal ruby, .reveal section, .reveal summary, .reveal time, .reveal mark, .reveal audio, .reveal video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+* {
+    box-sizing: border-box;
+}
+.reveal section:not(.stack):not([data-background-interactive="true"]).present .sl-block-content {
+    pointer-events: auto;
+}
+.reveal .sl-block .sl-block-content {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    outline: 0;
+    word-wrap: break-word;
+}
+.reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal blockquote, .reveal pre, .reveal a, .reveal abbr, .reveal acronym, .reveal address, .reveal big, .reveal cite, .reveal code, .reveal del, .reveal dfn, .reveal em, .reveal img, .reveal ins, .reveal kbd, .reveal q, .reveal s, .reveal samp, .reveal small, .reveal strike, .reveal strong, .reveal sub, .reveal sup, .reveal tt, .reveal var, .reveal b, .reveal u, .reveal center, .reveal dl, .reveal dt, .reveal dd, .reveal ol, .reveal ul, .reveal li, .reveal fieldset, .reveal form, .reveal label, .reveal legend, .reveal table, .reveal caption, .reveal tbody, .reveal tfoot, .reveal thead, .reveal tr, .reveal th, .reveal td, .reveal article, .reveal aside, .reveal canvas, .reveal details, .reveal embed, .reveal figure, .reveal figcaption, .reveal footer, .reveal header, .reveal hgroup, .reveal menu, .reveal nav, .reveal output, .reveal ruby, .reveal section, .reveal summary, .reveal time, .reveal mark, .reveal audio, .reveal video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.reveal .sl-block .sl-block-content>:last-child {
+    margin-bottom: 0;
+}
+.reveal .sl-block .sl-block-content>:first-child {
+    margin-top: 0;
+}
+.theme-font-opensans .themed h1, .theme-font-opensans .themed h2, .theme-font-opensans .themed h3, .theme-font-opensans .themed h4, .theme-font-opensans .themed h5, .theme-font-opensans .themed h6, .theme-font-opensans .reveal h1, .theme-font-opensans .reveal h2, .theme-font-opensans .reveal h3, .theme-font-opensans .reveal h4, .theme-font-opensans .reveal h5, .theme-font-opensans .reveal h6 {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    text-transform: none;
+    line-height: 1.3;
+    font-weight: bold;
+}
+.reveal h2 {
+    font-size: 1.90em;
+    margin-bottom: 0.20em;
+}
+.reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal blockquote, .reveal pre, .reveal a, .reveal abbr, .reveal acronym, .reveal address, .reveal big, .reveal cite, .reveal code, .reveal del, .reveal dfn, .reveal em, .reveal img, .reveal ins, .reveal kbd, .reveal q, .reveal s, .reveal samp, .reveal small, .reveal strike, .reveal strong, .reveal sub, .reveal sup, .reveal tt, .reveal var, .reveal b, .reveal u, .reveal center, .reveal dl, .reveal dt, .reveal dd, .reveal ol, .reveal ul, .reveal li, .reveal fieldset, .reveal form, .reveal label, .reveal legend, .reveal table, .reveal caption, .reveal tbody, .reveal tfoot, .reveal thead, .reveal tr, .reveal th, .reveal td, .reveal article, .reveal aside, .reveal canvas, .reveal details, .reveal embed, .reveal figure, .reveal figcaption, .reveal footer, .reveal header, .reveal hgroup, .reveal menu, .reveal nav, .reveal output, .reveal ruby, .reveal section, .reveal summary, .reveal time, .reveal mark, .reveal audio, .reveal video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.reveal section:not(.stack):not([data-background-interactive="true"]).present .sl-block-content {
+    pointer-events: auto;
+}
+.reveal .sl-block[data-block-type="code"] .sl-block-content {
+    overflow: hidden;
+}
+.reveal .sl-block .sl-block-content {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    outline: 0;
+    word-wrap: break-word;
+}
+.reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal blockquote, .reveal pre, .reveal a, .reveal abbr, .reveal acronym, .reveal address, .reveal big, .reveal cite, .reveal code, .reveal del, .reveal dfn, .reveal em, .reveal img, .reveal ins, .reveal kbd, .reveal q, .reveal s, .reveal samp, .reveal small, .reveal strike, .reveal strong, .reveal sub, .reveal sup, .reveal tt, .reveal var, .reveal b, .reveal u, .reveal center, .reveal dl, .reveal dt, .reveal dd, .reveal ol, .reveal ul, .reveal li, .reveal fieldset, .reveal form, .reveal label, .reveal legend, .reveal table, .reveal caption, .reveal tbody, .reveal tfoot, .reveal thead, .reveal tr, .reveal th, .reveal td, .reveal article, .reveal aside, .reveal canvas, .reveal details, .reveal embed, .reveal figure, .reveal figcaption, .reveal footer, .reveal header, .reveal hgroup, .reveal menu, .reveal nav, .reveal output, .reveal ruby, .reveal section, .reveal summary, .reveal time, .reveal mark, .reveal audio, .reveal video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.reveal .sl-block[data-block-type="code"] .sl-block-content pre {
+    font-size: 0.55em;
+    padding: 0;
+}
+.reveal .sl-block[data-block-type="code"] .sl-block-content pre, .reveal .sl-block[data-block-type="code"] .sl-block-content code {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.reveal .sl-block .sl-block-content>:first-child {
+    margin-top: 0;
+}
+.reveal pre {
+    display: block;
+    position: relative;
+    margin: 0.25em auto;
+    text-align: left;
+    font-family: Courier, monospace;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+.reveal div, .reveal span, .reveal applet, .reveal object, .reveal iframe, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal blockquote, .reveal pre, .reveal a, .reveal abbr, .reveal acronym, .reveal address, .reveal big, .reveal cite, .reveal code, .reveal del, .reveal dfn, .reveal em, .reveal img, .reveal ins, .reveal kbd, .reveal q, .reveal s, .reveal samp, .reveal small, .reveal strike, .reveal strong, .reveal sub, .reveal sup, .reveal tt, .reveal var, .reveal b, .reveal u, .reveal center, .reveal dl, .reveal dt, .reveal dd, .reveal ol, .reveal ul, .reveal li, .reveal fieldset, .reveal form, .reveal label, .reveal legend, .reveal table, .reveal caption, .reveal tbody, .reveal tfoot, .reveal thead, .reveal tr, .reveal th, .reveal td, .reveal article, .reveal aside, .reveal canvas, .reveal details, .reveal embed, .reveal figure, .reveal figcaption, .reveal footer, .reveal header, .reveal hgroup, .reveal menu, .reveal nav, .reveal output, .reveal ruby, .reveal section, .reveal summary, .reveal time, .reveal mark, .reveal audio, .reveal video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+pre {
+    white-space: pre-wrap;
+}
+code, kbd, pre, samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+.reveal .sl-block[data-block-type="code"] .sl-block-content code {
+    white-space: pre;
+    word-wrap: normal;
+}
+.reveal .sl-block[data-block-type="code"] .sl-block-content pre, .reveal .sl-block[data-block-type="code"] .sl-block-content code {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.reveal .hljs {
+    min-height: 100%;
+}
+[data-highlight-theme="monokai"] .hljs {
+    display: block;
+    overflow-x: auto;
+    background: #272822;
+    color: #ddd;
+}
+.reveal pre code {
+    display: block;
+    padding: 5px;
+    overflow: auto;
+    word-wrap: normal;
+}
